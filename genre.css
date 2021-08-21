@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    }
+    body
+    {
+        padding: 9px;
+    }
+    .container
+    {
+        padding: 15px 20px 15px 20px; 
+        border: 2px solid ;
+        border-radius: 5px;
+        font-size: 20px;
+        width: 60%;
+        margin-left: 260px;
+    }
+    input[type="text"],
+    input[type="number"]
+    {
+        width: 100%;
+        border: 2px solid ;
+        border-radius: 4px;
+    
+    }
+    fieldset
+    {
+        border: 3px solid rgb(14, 13, 13);
+    
+    }
+    input[type="submit"]
+    {
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    }
+    input[type="submit"]:hover
+    {
+     background-color: orange;   
+    }
+    .Head
+    {
+        text-align: center;
+    
+    }
+    .navbar ul li
+
+{
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10vw;
+  margin-left: 10vw;
+  margin-right: 15vw;
+   color: black;
+   margin-top: -20vh;
+}
